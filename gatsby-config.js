@@ -3,6 +3,7 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+const flatMap = require(`graphql/polyfills/flatMap`).default
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
